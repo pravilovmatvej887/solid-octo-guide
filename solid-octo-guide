@@ -1,0 +1,11 @@
+        case .changeBlendMode(let mode):
+            newText.blendMode = mode
+            
+        case .changeZPosition(let index):
+            newText.zPosition = index
+            
+        case .changeAnimation(let animation):
+            newText.animation = animation
+        }
+        
+        return newText
